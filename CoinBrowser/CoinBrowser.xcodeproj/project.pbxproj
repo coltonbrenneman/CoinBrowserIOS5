@@ -12,6 +12,9 @@
 		41078B93274DB4D2003BD4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41078B91274DB4D2003BD4FA /* Main.storyboard */; };
 		41078B95274DB4D4003BD4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41078B94274DB4D4003BD4FA /* Assets.xcassets */; };
 		41078B98274DB4D4003BD4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41078B96274DB4D4003BD4FA /* LaunchScreen.storyboard */; };
+		44FA4EB92A378B0400061F12 /* CoinListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA4EB82A378B0400061F12 /* CoinListTableViewController.swift */; };
+		44FA4EBC2A37903E00061F12 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA4EBB2A37903E00061F12 /* Coin.swift */; };
+		44FA4EBF2A37908400061F12 /* CoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA4EBE2A37908400061F12 /* CoinController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		41078B94274DB4D4003BD4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41078B97274DB4D4003BD4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41078B99274DB4D4003BD4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FA4EB82A378B0400061F12 /* CoinListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListTableViewController.swift; sourceTree = "<group>"; };
+		44FA4EBB2A37903E00061F12 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		44FA4EBE2A37908400061F12 /* CoinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		41078B8A274DB4D2003BD4FA /* CoinBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				44FA4EBA2A378BC700061F12 /* Models */,
+				44FA4EB62A3789F500061F12 /* Controllers */,
 				41078B9F274DB4E0003BD4FA /* Storyboards */,
 				41078BA0274DB4EE003BD4FA /* Supporting Files */,
 			);
@@ -78,6 +86,39 @@
 				41078B99274DB4D4003BD4FA /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44FA4EB62A3789F500061F12 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44FA4EBD2A37907A00061F12 /* ModelControllers */,
+				44FA4EB72A3789F800061F12 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44FA4EB72A3789F800061F12 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44FA4EB82A378B0400061F12 /* CoinListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44FA4EBA2A378BC700061F12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44FA4EBB2A37903E00061F12 /* Coin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44FA4EBD2A37907A00061F12 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44FA4EBE2A37908400061F12 /* CoinController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FA4EB92A378B0400061F12 /* CoinListTableViewController.swift in Sources */,
+				44FA4EBF2A37908400061F12 /* CoinController.swift in Sources */,
 				41078B8C274DB4D2003BD4FA /* AppDelegate.swift in Sources */,
+				44FA4EBC2A37903E00061F12 /* Coin.swift in Sources */,
 				41078B8E274DB4D2003BD4FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
